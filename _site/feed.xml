@@ -4,7 +4,11 @@
   <id>http://localhost:4000/</id>
   <title>Ehsan Aramide</title>
   <subtitle>Ehsan Aramide's portfolio and personal blog.</subtitle>
+<<<<<<< HEAD
   <updated>2022-04-20T23:55:36+04:30</updated>
+=======
+  <updated>2022-04-20T23:08:08+04:30</updated>
+>>>>>>> 6728cd8952055ca91ce19aec0ea76499cc3a547f
   <author>
     <name>Ehsan Aramide</name>
     <uri>http://localhost:4000/</uri>
