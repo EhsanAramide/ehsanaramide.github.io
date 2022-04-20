@@ -1,0 +1,45 @@
+I"v	<h2 id="first-blog-post">First Blog Post</h2>
+
+<p>Hello! I’m Ehsan a junior Embedded Software Engineer.
+I’m going to go to USA to start my jorny in a vary nice way.</p>
+
+<blockquote class="prompt-info">
+  <p>An example of <code class="language-plaintext highlighter-rouge">info</code> prompt</p>
+</blockquote>
+
+<h2 id="some-coding">Some coding</h2>
+
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre><span class="kn">import</span> <span class="s">'dart:io'</span><span class="o">;</span>
+
+<span class="kt">void</span> <span class="nf">main</span> <span class="p">(</span><span class="kt">List</span><span class="o">&lt;</span><span class="kt">String</span><span class="o">&gt;</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+   <span class="kd">var</span> <span class="n">age</span> <span class="o">=</span> <span class="mi">12</span><span class="o">;</span>
+   <span class="kd">const</span> <span class="kt">String</span> <span class="n">name</span> <span class="o">=</span> <span class="s">'Ehsan Aramide'</span><span class="o">;</span>
+<span class="o">}</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre><span class="cp">#include</span> <span class="cpf">&lt;stdlib.h&gt;</span><span class="cp">
+</span>
+<span class="kt">int</span> <span class="nf">main</span> <span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span><span class="o">**</span> <span class="n">argv</span><span class="p">)</span> <span class="p">{</span>
+   <span class="n">printf</span><span class="p">(</span><span class="s">"Hello World</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+   <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<pre><code class="language-mermaid">stateDiagram-v2
+[*] --&gt; Stil
+Movie --&gt; Stil
+Stil --&gt; Movie
+</code></pre>
+:ET
