@@ -14,10 +14,6 @@ I'm a _junior Embedded Software Engineer_. I mostly use the following technolegi
 
 I'm interested in Operating Systems, Compilers, IoT, ARM and RISC-V platforms products, and everythings that we can do with hardwares and semiconductors.
 
-### Education
-
-### Experiences
-
 ### Volunteering Experiences
 
 Maintainer of Dart Package

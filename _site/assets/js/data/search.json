@@ -1,19 +1,4 @@
 [
   
-  {
-    "title": "My First Blog Post",
-    "url": "/posts/my-first-blog-post/",
-    "categories": "Test",
-    "tags": "EE, Electricity",
-    "date": "2022-04-18 22:20:00 +0430",
-    
-
-
-
-
-
-    "snippet": "First Blog PostHello! I’m Ehsan a junior Embedded Software Engineer.I’m going to go to USA to start my jorny in a vary nice way.  An example of info promptSome codingimport 'dart:io';void main (List&lt;String&gt; args) {   var age = 12;   const String name = 'Ehsan Aramide';}#include &lt;stdlib.h&gt;int main (int argc, char** argv) {   printf(\"Hello World\\n\");   return 0;}stateDiagram-v2[*] --&gt; StilMovie --&gt; StilStil --&gt; Movie"
-  }
-  
 ]
 
