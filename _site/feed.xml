@@ -4,11 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Ehsan Aramide</title>
   <subtitle>Ehsan Aramide's portfolio and personal blog.</subtitle>
-<<<<<<< HEAD
-  <updated>2022-04-20T23:55:36+04:30</updated>
-=======
-  <updated>2022-04-20T23:08:08+04:30</updated>
->>>>>>> 6728cd8952055ca91ce19aec0ea76499cc3a547f
+  <updated>2022-04-21T12:57:41+04:30</updated>
   <author>
     <name>Ehsan Aramide</name>
     <uri>http://localhost:4000/</uri>
@@ -32,120 +28,6 @@
   
     <id>http://localhost:4000/posts/my-first-blog-post/</id>
     <content src="http://localhost:4000/posts/my-first-blog-post/" />
-    <author>
-      <name>Ehsan Aramide</name>
-    </author>
-
-  
-    
-    <category term="Test" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      First Blog Post
-
-Hello! I’m Ehsan a junior Embedded Software Engineer.
-I’m going to go to USA to start my jorny in a vary nice way.
-
-
-  An example of info prompt
-
-
-Some coding
-
-import 'dart:io';
-
-void main (List&amp;lt;String&amp;gt; args) {
-   var age = 12;
-   const String name = 'Ehsan Aramide';
-}
-
-
-#include &amp;lt;stdlib.h&amp;gt;
-
-int main (int argc, char** argv) {
-   printf("Hello World\n");
-   return 0;...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>My First Blog Post</title>
-    <link href="http://localhost:4000/posts/my-first-blog-post-2/" rel="alternate" type="text/html" title="My First Blog Post" />
-    <published>2022-04-18T22:20:00+04:30</published>
-  
-    <updated>2022-04-18T22:20:00+04:30</updated>
-  
-    <id>http://localhost:4000/posts/my-first-blog-post-2/</id>
-    <content src="http://localhost:4000/posts/my-first-blog-post-2/" />
-    <author>
-      <name>Ehsan Aramide</name>
-    </author>
-
-  
-    
-    <category term="Test" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      First Blog Post
-
-Hello! I’m Ehsan a junior Embedded Software Engineer.
-I’m going to go to USA to start my jorny in a vary nice way.
-
-
-  An example of info prompt
-
-
-Some coding
-
-import 'dart:io';
-
-void main (List&amp;lt;String&amp;gt; args) {
-   var age = 12;
-   const String name = 'Ehsan Aramide';
-}
-
-
-#include &amp;lt;stdlib.h&amp;gt;
-
-int main (int argc, char** argv) {
-   printf("Hello World\n");
-   return 0;...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>My First Blog Post</title>
-    <link href="http://localhost:4000/posts/my-first-blog-post-1/" rel="alternate" type="text/html" title="My First Blog Post" />
-    <published>2022-04-18T22:20:00+04:30</published>
-  
-    <updated>2022-04-18T22:20:00+04:30</updated>
-  
-    <id>http://localhost:4000/posts/my-first-blog-post-1/</id>
-    <content src="http://localhost:4000/posts/my-first-blog-post-1/" />
     <author>
       <name>Ehsan Aramide</name>
     </author>

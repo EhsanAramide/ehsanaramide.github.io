@@ -985,32 +985,6 @@ Stil --&gt; Movie
 
   
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
 
 
 
@@ -1026,122 +1000,10 @@ Stil --&gt; Movie
     
     
   
-    
-    
-      
-      
-    
-  
-    
-    
-      
-      
-    
-  
 
 
 
 
-
-  <div id="related-posts" class="mt-5 mb-2 mb-sm-4">
-    <h3 class="pt-2 mt-1 mb-4 ml-1"
-      data-toc-skip>Further Reading</h3>
-    <div class="card-deck mb-4">
-    
-      
-      
-      <div class="card">
-        <a href="/posts/my-first-blog-post-1/">
-          <div class="card-body">
-            <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/timeago.js
--->
-
-<em class="timeago small"
-    data-ts="1650304200"
-    
-    >
-  2022-04-18
-</em>
-
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>My First Blog Post</h3>
-            <div class="text-muted small">
-              <p>
-                
-
-
-
-
-
-                First Blog Post
-
-Hello! I’m Ehsan a junior Embedded Software Engineer.
-I’m going to go to USA to start my jorny in a vary nice way.
-
-
-  An example of info prompt
-
-
-Some coding
-
-import &#39;dart:io&#39;;
-
-v...
-              </p>
-            </div>
-          </div>
-        </a>
-      </div>
-    
-      
-      
-      <div class="card">
-        <a href="/posts/my-first-blog-post-2/">
-          <div class="card-body">
-            <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/timeago.js
--->
-
-<em class="timeago small"
-    data-ts="1650304200"
-    
-    >
-  2022-04-18
-</em>
-
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>My First Blog Post</h3>
-            <div class="text-muted small">
-              <p>
-                
-
-
-
-
-
-                First Blog Post
-
-Hello! I’m Ehsan a junior Embedded Software Engineer.
-I’m going to go to USA to start my jorny in a vary nice way.
-
-
-  An example of info prompt
-
-
-Some coding
-
-import &#39;dart:io&#39;;
-
-v...
-              </p>
-            </div>
-          </div>
-        </a>
-      </div>
-    
-    </div> <!-- .card-deck -->
-  </div> <!-- #related-posts -->
 
 
       
@@ -1152,10 +1014,10 @@ v...
 
 <div class="post-navigation d-flex justify-content-between">
   
-  <a href="/posts/my-first-blog-post-2/" class="btn btn-outline-primary"
+  <div class="btn btn-outline-primary disabled"
     prompt="Older">
-    <p>My First Blog Post</p>
-  </a>
+    <p>-</p>
+  </div>
   
 
   
@@ -1170,6 +1032,65 @@ v...
       
         
         <!--  The comments switcher -->
+
+  
+  <!-- https://giscus.app/ -->
+<script type="text/javascript">
+  $(function () {
+    const origin = "https://giscus.app";
+    const iframe = "iframe.giscus-frame";
+    const lightTheme = "light";
+    const darkTheme = "dark_dimmed";
+    let initTheme = lightTheme;
+
+    if ($("html[data-mode=dark]").length > 0
+        || ($("html[data-mode]").length == 0
+            && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+      initTheme = darkTheme;
+    }
+
+    let giscusAttributes = {
+      "src": "https://giscus.app/client.js",
+      "data-repo": "EhsanAramide/ehsanaramide.github.io",
+      "data-repo-id": "R_kgDOHNVwEw",
+      "data-category": "Announcements",
+      "data-category-id": "DIC_kwDOHNVwE84COr6y",
+      "data-mapping": "og:title",
+      "data-reactions-enabled": "1",
+      "data-emit-metadata": "0",
+      "data-theme": initTheme,
+      "data-input-position": "top",
+      "data-lang": "en",
+      "crossorigin": "anonymous",
+      "async": ""
+    };
+
+    let giscusScript = document.createElement("script");
+    Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+    document.getElementById("tail-wrapper").appendChild(giscusScript);
+
+    addEventListener("message", (event) => {
+      if (event.source === window && event.data &&
+            event.data.direction === ModeToggle.ID) {
+        /* global theme mode changed */
+        const mode = event.data.message;
+        const theme = (mode === ModeToggle.DARK_MODE ? darkTheme : lightTheme);
+
+        const message = {
+          setConfig: {
+            theme: theme
+          }
+        };
+
+        const giscus = document.querySelector(iframe).contentWindow;
+        giscus.postMessage({ giscus: message }, origin);
+      }
+
+    });
+
+  });
+</script>
+
 
 
       
