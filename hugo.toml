@@ -1,0 +1,48 @@
+baseURL = 'https://ehsanaramide.github.io/'
+languageCode = 'en-us'
+title = 'Ehsan Aramide'
+theme = 'xmin'
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+note = "/note/:year/:month/:slug/"
+post = "/post/:year/:month/:slug/"
+
+[menu]
+[[menu.main]]
+name = "Home"
+url = ""
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[menu.main]]
+name = "Notes"
+url = "note/"
+weight = 3
+
+[[menu.main]]
+name = "Posts"
+url = "post/"
+weight = 4
+
+[[menu.main]]
+name = "Subscribe"
+url = "index.xml"
+weight = 5
+
+
+[params]
+description = "Personal Site of Ehsan Aramide. If you want to contribute, take a look at https://github.com/EhsanAramide/ehsanaramide.github.io"
+footer = "&copy; [Ehsan Aramide](https://ehsanaramide.github.io) 2024 -- {Year} | [Github](https://github.com/EhsanAramide)"
+
+[markup]
+[markup.highlight]
+codeFences = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
