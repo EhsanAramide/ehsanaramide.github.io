@@ -9,4 +9,4 @@ _Holy Bible, Proverbs 13:4_
 
 **The knower of truth shall walk the earth as a Madman or a Child.**
 
-My posts and notes, you can also [subscribe to RSS feed](/index.xml/):
+My posts and notes, you can also [subscribe to RSS feed](/index.xml):
