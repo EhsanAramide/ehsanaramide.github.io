@@ -1,7 +1,7 @@
 ---
 title: "Books That I Suggest"
 date: 2024-02-09T23:26:52+03:30
-draft: true
+draft: false
 slug: "suggested-books"
 ---
 
