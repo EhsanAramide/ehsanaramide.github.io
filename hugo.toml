@@ -5,8 +5,7 @@ theme = 'xmin'
 footnotereturnlinkcontents = "↩"
 
 [permalinks]
-note = "/note/:year/:month/:slug/"
-post = "/post/:year/:month/:slug/"
+note = "/note/:year/:month/:day/:slug/"
 
 [menu]
 [[menu.main]]
@@ -25,14 +24,9 @@ url = "note/"
 weight = 3
 
 [[menu.main]]
-name = "Posts"
-url = "post/"
-weight = 4
-
-[[menu.main]]
 name = "Subscribe"
 url = "index.xml"
-weight = 5
+weight = 4
 
 
 [params]
