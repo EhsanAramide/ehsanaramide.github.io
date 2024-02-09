@@ -35,8 +35,6 @@ footer = "&copy; [Ehsan Aramide](https://ehsanaramide.github.io) 2024 -- {Year} 
 
 [markup]
 [markup.highlight]
-codeFences = false
-
-[markup.goldmark]
+style = "friendly"
 [markup.goldmark.renderer]
 unsafe = true
