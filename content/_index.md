@@ -7,6 +7,6 @@ title: Home
 **The soul of the sluggard desireth, and hath nothing: but the soul of the diligent shall be made fat.**
 _Holy Bible, Proverbs 13:4_
 
-**The knower of truth shall walk the earth as a Madman or a Child.**
+**The knower of truth shall walk the earth as a Madman or a Child.** _My Brother, Arwin the Jesus_
 
 My posts and notes, you can also [subscribe to RSS feed](/index.xml):
