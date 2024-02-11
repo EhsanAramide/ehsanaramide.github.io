@@ -31,7 +31,7 @@ weight = 4
 
 [params]
 description = "Personal Site of Ehsan Aramide. If you want to contribute, take a look at https://github.com/EhsanAramide/ehsanaramide.github.io"
-footer = "&copy; [Ehsan Aramide](https://ehsanaramide.github.io) 2024 -- {Year} | [Github](https://github.com/EhsanAramide)"
+footer = "&copy; [Ehsan Aramide](https://ehsanaramide.github.io) 2024 -- {Year} | [Github](https://github.com/EhsanAramide) | [LinkedIn](https://www.linkedin.com/in/ehsanaramide)"
 
 [markup]
 [markup.highlight]
