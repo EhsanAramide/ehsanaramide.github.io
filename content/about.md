@@ -19,12 +19,15 @@ In general I am intersted in:
 - Philosophy (especially Natural Philosophy and Philosophy of Mind branches)
 
 ## Experiences in Industry
-- Embedded Software Engineer @ [NIKTED Co](https://nikted.ir/) . Jun 2023 - Present . Tehran - On-site . Part-time .
+- Embedded Software Engineer @ [NIKTED Co](https://nikted.ir/) . Tehran - On-site . Part-time . {{< duration start="Jun 1, 2023" stop="Mar 31, 2024" >}}
 
 ## Educations
-- Bachelor of Science, Physics @ [K. N. Toosi University](https://en.kntu.ac.ir) . Sep 2022 - Present . Tehran .
+- Bachelor of Science, Physics @ [K. N. Toosi University](https://en.kntu.ac.ir) . Tehran . {{< duration start="Sep 1, 2022" stop="Present" >}}
 
 ## Volunteering Works
-- Maintainer of Dart Package @ [Persian Tools](https://github.com/persian-tools) . Mar 2021 - Jun 2022 . 1 yr 4 mos .
+- Maintainer of Dart Package @ [Persian Tools](https://github.com/persian-tools) . {{< duration start="Mar 1, 2021" stop="Jun 30, 2022" >}}
 
-- Staff @ [Persian Flutter](https://github.com/PersianFlutter) . Sep 2021 - Aug 2022 . 1 yr .
+- Staff @ [Persian Flutter](https://github.com/PersianFlutter) . {{< duration start="Sep 1, 2021" stop="Aug 31, 2022" >}}
+
+
+{{< js_duration_calc >}}
